@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ck-orange: #FF6B00;
+  --color-ck-brown: #3E2723;
+  --color-ck-white: #FFFFFF;
+}
+
+
+
+@keyframes spinner-fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.animate-spinner-fade {
+  animation: spinner-fade 1s linear infinite;
+}

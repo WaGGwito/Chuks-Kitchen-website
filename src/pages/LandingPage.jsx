@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import desktopHero from '../assets/desktop-hero.png';
-import mobileHero from '../assets/mobile-hero.png';
+import mobileHero from '../assets/mobile-hero.webp';
 
 const LandingPage = () => {
     const navigate = useNavigate();

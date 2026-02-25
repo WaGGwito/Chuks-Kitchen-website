@@ -7,6 +7,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/chuks-kitchen-website/",
+  base: "/Chuks-Kitchen-website/",
 })
 

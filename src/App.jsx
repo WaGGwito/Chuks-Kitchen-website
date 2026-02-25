@@ -13,7 +13,7 @@ import OrderState from './pages/OrderState';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Chuks-Kitchen-website">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
